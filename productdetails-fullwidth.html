@@ -194,27 +194,12 @@
             </div>
         </div>
     </div>
-<div class="main-content main-content-details single no-sidebar">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="breadcrumb-trail breadcrumbs">
-                    <ul class="trail-items breadcrumb">
-                        <li class="trail-item trail-begin">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li class="trail-item">
-                            <a href="#">Accents</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="content-area content-details full-width col-lg-9 col-md-8 col-sm-12 col-xs-12">
+    <div class="main-content main-content-details single no-sidebar" style="padding-bottom: 0;padding-top: 20px;">
+        <div class="container">
+            <div class="content-area content-details full-width">
                 <div class="site-main">
-                    <div class="details-product">
-                        <div class="details-thumd col-12">
+                    <div class="row details-product rows-space-60">
+                        <div class="details-thumd col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                 <img src="assets/images/details-item-1.jpg" alt="img">
                             </div>
@@ -254,7 +239,7 @@
                             </div>
 
                         </div>
-                        <div class="details-infor">
+                        <div class="details-infor col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <h1 class="product-title">
                                 Combo 5 boxer PROFIT - Tặng 1 Quần
                             </h1>
@@ -348,6 +333,24 @@
                                             <img src="assets/svg/chevron-up-16.svg" alt="">
                                         </div>
                                     </div>
+                                    <div class="range-slider_wrapper">
+                                        <div class="range-slider">
+                                            <div class="range-slider-top">
+                                                <span class="range-slider__label">Chiều cao</span>
+                                                <span id="range-slider_height_value"
+                                                    class="range-slider__value">0</span>
+                                            </div>
+                                            <input type="range" min="1" max="100" value="50"
+                                                class="range-slider__range slider" id="myRange">
+                                        </div>
+                                        <!-- <div class="range-slider">
+                                                                                <div class="">
+                                                                                    <span class="range-slider__label">Cân nặng </span>
+                                                                                    <span class="range-slider__value">0</span>
+                                                                                </div>
+                                                                                <input class="range-slider__range" type="range" value="100" min="0" max="500">
+                                                                            </div> -->
+                                    </div>
                                 </div>
                             </div>
                             <div class="group-button">
@@ -367,67 +370,323 @@
                         </div>
                     </div>
                     <div style="clear: left;"></div>
-                    <div class="related products product-grid">
-                        <h2 class="product-grid-title">You may also like</h2>
-                        <div class="owl-products owl-slick equal-container nav-center"
-                            data-slick='{"autoplay":false, "autoplaySpeed":1000, "arrows":true, "dots":false, "infinite":true, "speed":800, "rows":1}'
-                            data-responsive='[{"breakpoint":"2000","settings":{"slidesToShow":3}},{"breakpoint":"1200","settings":{"slidesToShow":2}},{"breakpoint":"992","settings":{"slidesToShow":2}},{"breakpoint":"480","settings":{"slidesToShow":1}}]'>
-                            <div class="product-item style-1">
-                                <div class="product-inner equal-element">
-                                    <div class="product-top">
-                                        <div class="flash">
-                                            <span class="onnew">
-                                                <span class="text">
-                                                    new
-                                                </span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="product-thumb">
-                                        <div class="thumb-inner">
-                                            <a href="#">
-                                                <img src="assets/images/product-item-1.jpg" alt="img">
-                                            </a>
-                                            <div class="thumb-group">
-                                                <div class="yith-wcwl-add-to-wishlist">
-                                                    <div class="yith-wcwl-add-button">
-                                                        <a href="#">Add to Wishlist</a>
+                    <div class="shop-test-product-reviews shop-product-detail layout1 rows-space-40">
+                        <div class="container">
+                            <h3 class="custommenu-title-blog">
+                                Đánh giá
+                            </h3>
+                            <div class="container-wapper">
+                                <div class="product-list-owl owl-slick equal-container nav-center-left"
+                                    data-slick='{"autoplay":false, "autoplaySpeed":1000, "arrows":true, "dots":false, "infinite":true, "speed":800,"infinite":false}'
+                                    data-responsive='[{"breakpoint":"2000","settings":{"slidesToShow":3}},{"breakpoint":"1200","settings":{"slidesToShow":3}},{"breakpoint":"992","settings":{"slidesToShow":3}},{"breakpoint":"768","settings":{"slidesToShow":2}},{"breakpoint":"481","settings":{"slidesToShow":1}}]'>
+                                    <div class="product-item style-1 product-type-variable">
+                                        <div class="product-inner equal-element">
+                                            <div class="product-thumb">
+                                                <div class="thumb-inner">
+                                                    <a href="#">
+                                                        <img src="assets/images/product-item-black-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="product-info">
+                                                <div class="product-avatar">
+                                                    <div>
+                                                        XV
+                                                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"/></svg> -->
                                                     </div>
                                                 </div>
-                                                <a href="#" class="button quick-wiew-button">Quick View</a>
-                                                <div class="loop-form-add-to-cart">
-                                                    <button class="single_add_to_cart_button button">Add to cart
-                                                    </button>
+                                                <h5 class="product-name product_title">
+                                                    <a href="#">Hải D</a>
+                                                </h5>
+                                                <div class="product-date">
+                                                    04/12/2022
+                                                </div>
+                                                <div class="product-reviews">
+                                                    "shop đóng gói hàng
+                                                    <br />
+                                                    không lỗi"
+                                                </div>
+                                                <div class="group-info">
+                                                    <div class="stars-rating">
+                                                        <div class="star-rating">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-info">
-                                        <h5 class="product-name product_title">
-                                            <a href="#">Aluminum Plant</a>
-                                        </h5>
-                                        <div class="group-info">
-                                            <div class="stars-rating">
-                                                <div class="star-rating">
-                                                    <span class="star-3"></span>
-                                                </div>
-                                                <div class="count-star">
-                                                    (3)
+                                    <div class="product-item style-1 product-type-variable">
+                                        <div class="product-inner equal-element">
+                                            <div class="product-thumb">
+                                                <div class="thumb-inner">
+                                                    <a href="#">
+                                                        <img src="assets/images/product-item-black-1.jpg" alt="img">
+                                                    </a>
                                                 </div>
                                             </div>
-                                            <div class="price">
-                                                <del>
-                                                    $65
-                                                </del>
-                                                <ins>
-                                                    $45
-                                                </ins>
+                                            <div class="product-info">
+                                                <div class="product-avatar">
+                                                    <div>
+                                                        XV
+                                                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"/></svg> -->
+                                                    </div>
+                                                </div>
+                                                <h5 class="product-name product_title">
+                                                    <a href="#">Hải D</a>
+                                                </h5>
+                                                <div class="product-date">
+                                                    04/12/2022
+                                                </div>
+                                                <div class="product-reviews">
+                                                    "shop đóng gói hàng
+                                                    <br />
+                                                    không lỗi"
+                                                </div>
+                                                <div class="group-info">
+                                                    <div class="stars-rating">
+                                                        <div class="star-rating">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item style-1 product-type-variable">
+                                        <div class="product-inner equal-element">
+                                            <div class="product-thumb">
+                                                <div class="thumb-inner">
+                                                    <a href="#">
+                                                        <img src="assets/images/product-item-black-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="product-info">
+                                                <div class="product-avatar">
+                                                    <div>
+                                                        XV
+                                                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"/></svg> -->
+                                                    </div>
+                                                </div>
+                                                <h5 class="product-name product_title">
+                                                    <a href="#">Hải D</a>
+                                                </h5>
+                                                <div class="product-date">
+                                                    04/12/2022
+                                                </div>
+                                                <div class="product-reviews">
+                                                    "shop đóng gói hàng
+                                                    <br />
+                                                    không lỗi"
+                                                </div>
+                                                <div class="group-info">
+                                                    <div class="stars-rating">
+                                                        <div class="star-rating">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item style-1 product-type-variable">
+                                        <div class="product-inner equal-element">
+                                            <div class="product-thumb">
+                                                <div class="thumb-inner">
+                                                    <a href="#">
+                                                        <img src="assets/images/product-item-black-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="product-info">
+                                                <div class="product-avatar">
+                                                    <div>
+                                                        XV
+                                                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"/></svg> -->
+                                                    </div>
+                                                </div>
+                                                <h5 class="product-name product_title">
+                                                    <a href="#">Hải D</a>
+                                                </h5>
+                                                <div class="product-date">
+                                                    04/12/2022
+                                                </div>
+                                                <div class="product-reviews">
+                                                    "shop đóng gói hàng
+                                                    <br />
+                                                    không lỗi"
+                                                </div>
+                                                <div class="group-info">
+                                                    <div class="stars-rating">
+                                                        <div class="star-rating">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item style-1 product-type-variable">
+                                        <div class="product-inner equal-element">
+                                            <div class="product-thumb">
+                                                <div class="thumb-inner">
+                                                    <a href="#">
+                                                        <img src="assets/images/product-item-black-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="product-info">
+                                                <div class="product-avatar">
+                                                    <div>
+                                                        XV
+                                                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"/></svg> -->
+                                                    </div>
+                                                </div>
+                                                <h5 class="product-name product_title">
+                                                    <a href="#">Hải D</a>
+                                                </h5>
+                                                <div class="product-date">
+                                                    04/12/2022
+                                                </div>
+                                                <div class="product-reviews">
+                                                    "shop đóng gói hàng
+                                                    <br />
+                                                    không lỗi"
+                                                </div>
+                                                <div class="group-info">
+                                                    <div class="stars-rating">
+                                                        <div class="star-rating">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item style-1 product-type-variable">
+                                        <div class="product-inner equal-element">
+                                            <div class="product-thumb">
+                                                <div class="thumb-inner">
+                                                    <a href="#">
+                                                        <img src="assets/images/product-item-black-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="product-info">
+                                                <div class="product-avatar">
+                                                    <div>
+                                                        XV
+                                                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"/></svg> -->
+                                                    </div>
+                                                </div>
+                                                <h5 class="product-name product_title">
+                                                    <a href="#">Hải D</a>
+                                                </h5>
+                                                <div class="product-date">
+                                                    04/12/2022
+                                                </div>
+                                                <div class="product-reviews">
+                                                    "shop đóng gói hàng
+                                                    <br />
+                                                    không lỗi"
+                                                </div>
+                                                <div class="group-info">
+                                                    <div class="stars-rating">
+                                                        <div class="star-rating">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item style-1 product-type-variable">
+                                        <div class="product-inner equal-element">
+                                            <div class="product-thumb">
+                                                <div class="thumb-inner">
+                                                    <a href="#">
+                                                        <img src="assets/images/product-item-black-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="product-info">
+                                                <div class="product-avatar">
+                                                    <div>
+                                                        XV
+                                                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"/></svg> -->
+                                                    </div>
+                                                </div>
+                                                <h5 class="product-name product_title">
+                                                    <a href="#">Hải D</a>
+                                                </h5>
+                                                <div class="product-date">
+                                                    04/12/2022
+                                                </div>
+                                                <div class="product-reviews">
+                                                    "shop đóng gói hàng
+                                                    <br />
+                                                    không lỗi"
+                                                </div>
+                                                <div class="group-info">
+                                                    <div class="stars-rating">
+                                                        <div class="star-rating">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item style-1 product-type-variable">
+                                        <div class="product-inner equal-element">
+                                            <div class="product-thumb">
+                                                <div class="thumb-inner">
+                                                    <a href="#">
+                                                        <img src="assets/images/product-item-black-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="product-info">
+                                                <div class="product-avatar">
+                                                    <div>
+                                                        XV
+                                                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"/></svg> -->
+                                                    </div>
+                                                </div>
+                                                <h5 class="product-name product_title">
+                                                    <a href="#">Hải D</a>
+                                                </h5>
+                                                <div class="product-date">
+                                                    04/12/2022
+                                                </div>
+                                                <div class="product-reviews">
+                                                    "shop đóng gói hàng
+                                                    <br />
+                                                    không lỗi"
+                                                </div>
+                                                <div class="group-info">
+                                                    <div class="stars-rating">
+                                                        <div class="star-rating">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="product-reviews-more"><button>Xem thêm</button></div>
                             </div>
-                            <div class="product-item style-1">
+                        </div>
+                    </div>
+                    <div class="shop-test-best-selling rows-space-40">
+                        <h3 class="custommenu-title-blog">
+                            Sản phẩm đã xem
+                        </h3>
+                        <ul class="row list-products auto-clear equal-container product-grid">
+                            <li
+                                class="product-item product-type-variable col-lg-3 col-md-4 col-sm-6 col-xs-6 col-ts-12 style-1">
                                 <div class="product-inner equal-element">
                                     <div class="product-top">
                                         <div class="flash">
@@ -443,7 +702,7 @@
                                             <a href="#">
                                                 <img src="assets/images/product-item-2.jpg" alt="img">
                                             </a>
-                                            <div class="thumb-group">
+                                            <!-- <div class="thumb-group">
                                                 <div class="yith-wcwl-add-to-wishlist">
                                                     <div class="yith-wcwl-add-button">
                                                         <a href="#">Add to Wishlist</a>
@@ -454,35 +713,28 @@
                                                     <button class="single_add_to_cart_button button">Add to cart
                                                     </button>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                     <div class="product-info">
                                         <h5 class="product-name product_title">
-                                            <a href="#">Rolf Round</a>
+                                            <a href="#">Quần Boxer PROFIT</a>
                                         </h5>
                                         <div class="group-info">
-                                            <div class="stars-rating">
-                                                <div class="star-rating">
-                                                    <span class="star-3"></span>
-                                                </div>
-                                                <div class="count-star">
-                                                    (3)
-                                                </div>
-                                            </div>
                                             <div class="price">
-                                                <del>
-                                                    $65
-                                                </del>
                                                 <ins>
-                                                    $45
+                                                    139.000đ
                                                 </ins>
+                                                <del>
+                                                    149.000
+                                                </del>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="product-item style-1">
+                            </li>
+                            <li
+                                class="product-item product-type-variable col-lg-3 col-md-4 col-sm-6 col-xs-6 col-ts-12 style-1">
                                 <div class="product-inner equal-element">
                                     <div class="product-top">
                                         <div class="flash">
@@ -496,9 +748,9 @@
                                     <div class="product-thumb">
                                         <div class="thumb-inner">
                                             <a href="#">
-                                                <img src="assets/images/product-item-3.jpg" alt="img">
+                                                <img src="assets/images/product-item-2.jpg" alt="img">
                                             </a>
-                                            <div class="thumb-group">
+                                            <!-- <div class="thumb-group">
                                                 <div class="yith-wcwl-add-to-wishlist">
                                                     <div class="yith-wcwl-add-button">
                                                         <a href="#">Add to Wishlist</a>
@@ -509,35 +761,28 @@
                                                     <button class="single_add_to_cart_button button">Add to cart
                                                     </button>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                     <div class="product-info">
                                         <h5 class="product-name product_title">
-                                            <a href="#">Foyer Back</a>
+                                            <a href="#">Quần Boxer PROFIT</a>
                                         </h5>
                                         <div class="group-info">
-                                            <div class="stars-rating">
-                                                <div class="star-rating">
-                                                    <span class="star-3"></span>
-                                                </div>
-                                                <div class="count-star">
-                                                    (3)
-                                                </div>
-                                            </div>
                                             <div class="price">
-                                                <del>
-                                                    $65
-                                                </del>
                                                 <ins>
-                                                    $45
+                                                    139.000đ
                                                 </ins>
+                                                <del>
+                                                    149.000
+                                                </del>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="product-item style-1">
+                            </li>
+                            <li
+                                class="product-item product-type-variable col-lg-3 col-md-4 col-sm-6 col-xs-6 col-ts-12 style-1">
                                 <div class="product-inner equal-element">
                                     <div class="product-top">
                                         <div class="flash">
@@ -551,9 +796,9 @@
                                     <div class="product-thumb">
                                         <div class="thumb-inner">
                                             <a href="#">
-                                                <img src="assets/images/product-item-4.jpg" alt="img">
+                                                <img src="assets/images/product-item-2.jpg" alt="img">
                                             </a>
-                                            <div class="thumb-group">
+                                            <!-- <div class="thumb-group">
                                                 <div class="yith-wcwl-add-to-wishlist">
                                                     <div class="yith-wcwl-add-button">
                                                         <a href="#">Add to Wishlist</a>
@@ -564,41 +809,282 @@
                                                     <button class="single_add_to_cart_button button">Add to cart
                                                     </button>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                     <div class="product-info">
                                         <h5 class="product-name product_title">
-                                            <a href="#">Go Gray</a>
+                                            <a href="#">Quần Boxer PROFIT</a>
                                         </h5>
                                         <div class="group-info">
-                                            <div class="stars-rating">
-                                                <div class="star-rating">
-                                                    <span class="star-3"></span>
-                                                </div>
-                                                <div class="count-star">
-                                                    (3)
-                                                </div>
-                                            </div>
                                             <div class="price">
-                                                <del>
-                                                    $65
-                                                </del>
                                                 <ins>
-                                                    $45
+                                                    139.000đ
                                                 </ins>
+                                                <del>
+                                                    149.000
+                                                </del>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            </li>
+                            <li
+                                class="product-item product-type-variable col-lg-3 col-md-4 col-sm-6 col-xs-6 col-ts-12 style-1">
+                                <div class="product-inner equal-element">
+                                    <div class="product-top">
+                                        <div class="flash">
+                                            <span class="onnew">
+                                                <span class="text">
+                                                    new
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-thumb">
+                                        <div class="thumb-inner">
+                                            <a href="#">
+                                                <img src="assets/images/product-item-2.jpg" alt="img">
+                                            </a>
+                                            <!-- <div class="thumb-group">
+                                                <div class="yith-wcwl-add-to-wishlist">
+                                                    <div class="yith-wcwl-add-button">
+                                                        <a href="#">Add to Wishlist</a>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="button quick-wiew-button">Quick View</a>
+                                                <div class="loop-form-add-to-cart">
+                                                    <button class="single_add_to_cart_button button">Add to cart
+                                                    </button>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <h5 class="product-name product_title">
+                                            <a href="#">Quần Boxer PROFIT</a>
+                                        </h5>
+                                        <div class="group-info">
+                                            <div class="price">
+                                                <ins>
+                                                    139.000đ
+                                                </ins>
+                                                <del>
+                                                    149.000
+                                                </del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="shop-test-best-selling product-screen-detail ">
+                        <h3 class="custommenu-title-blog">
+                            Có thể bạn sẽ thích
+                        </h3>
+                        <ul class="row list-products auto-clear equal-container product-grid">
+                            <li
+                                class="product-item product-type-variable col-lg-3 col-md-4 col-sm-6 col-xs-6 col-ts-12 style-1">
+                                <div class="product-inner equal-element">
+                                    <div class="product-top">
+                                        <div class="flash">
+                                            <span class="onnew">
+                                                <span class="text">
+                                                    new
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-thumb">
+                                        <div class="thumb-inner">
+                                            <a href="#">
+                                                <img src="assets/images/product-item-2.jpg" alt="img">
+                                            </a>
+                                            <!-- <div class="thumb-group">
+                                                <div class="yith-wcwl-add-to-wishlist">
+                                                    <div class="yith-wcwl-add-button">
+                                                        <a href="#">Add to Wishlist</a>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="button quick-wiew-button">Quick View</a>
+                                                <div class="loop-form-add-to-cart">
+                                                    <button class="single_add_to_cart_button button">Add to cart
+                                                    </button>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <h5 class="product-name product_title">
+                                            <a href="#">Quần Boxer PROFIT</a>
+                                        </h5>
+                                        <div class="group-info">
+                                            <div class="price">
+                                                <ins>
+                                                    139.000đ
+                                                </ins>
+                                                <del>
+                                                    149.000
+                                                </del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li
+                                class="product-item product-type-variable col-lg-3 col-md-4 col-sm-6 col-xs-6 col-ts-12 style-1">
+                                <div class="product-inner equal-element">
+                                    <div class="product-top">
+                                        <div class="flash">
+                                            <span class="onnew">
+                                                <span class="text">
+                                                    new
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-thumb">
+                                        <div class="thumb-inner">
+                                            <a href="#">
+                                                <img src="assets/images/product-item-2.jpg" alt="img">
+                                            </a>
+                                            <!-- <div class="thumb-group">
+                                                <div class="yith-wcwl-add-to-wishlist">
+                                                    <div class="yith-wcwl-add-button">
+                                                        <a href="#">Add to Wishlist</a>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="button quick-wiew-button">Quick View</a>
+                                                <div class="loop-form-add-to-cart">
+                                                    <button class="single_add_to_cart_button button">Add to cart
+                                                    </button>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <h5 class="product-name product_title">
+                                            <a href="#">Quần Boxer PROFIT</a>
+                                        </h5>
+                                        <div class="group-info">
+                                            <div class="price">
+                                                <ins>
+                                                    139.000đ
+                                                </ins>
+                                                <del>
+                                                    149.000
+                                                </del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li
+                                class="product-item product-type-variable col-lg-3 col-md-4 col-sm-6 col-xs-6 col-ts-12 style-1">
+                                <div class="product-inner equal-element">
+                                    <div class="product-top">
+                                        <div class="flash">
+                                            <span class="onnew">
+                                                <span class="text">
+                                                    new
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-thumb">
+                                        <div class="thumb-inner">
+                                            <a href="#">
+                                                <img src="assets/images/product-item-2.jpg" alt="img">
+                                            </a>
+                                            <!-- <div class="thumb-group">
+                                                <div class="yith-wcwl-add-to-wishlist">
+                                                    <div class="yith-wcwl-add-button">
+                                                        <a href="#">Add to Wishlist</a>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="button quick-wiew-button">Quick View</a>
+                                                <div class="loop-form-add-to-cart">
+                                                    <button class="single_add_to_cart_button button">Add to cart
+                                                    </button>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <h5 class="product-name product_title">
+                                            <a href="#">Quần Boxer PROFIT</a>
+                                        </h5>
+                                        <div class="group-info">
+                                            <div class="price">
+                                                <ins>
+                                                    139.000đ
+                                                </ins>
+                                                <del>
+                                                    149.000
+                                                </del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li
+                                class="product-item product-type-variable col-lg-3 col-md-4 col-sm-6 col-xs-6 col-ts-12 style-1">
+                                <div class="product-inner equal-element">
+                                    <div class="product-top">
+                                        <div class="flash">
+                                            <span class="onnew">
+                                                <span class="text">
+                                                    new
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="product-thumb">
+                                        <div class="thumb-inner">
+                                            <a href="#">
+                                                <img src="assets/images/product-item-2.jpg" alt="img">
+                                            </a>
+                                            <!-- <div class="thumb-group">
+                                                <div class="yith-wcwl-add-to-wishlist">
+                                                    <div class="yith-wcwl-add-button">
+                                                        <a href="#">Add to Wishlist</a>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="button quick-wiew-button">Quick View</a>
+                                                <div class="loop-form-add-to-cart">
+                                                    <button class="single_add_to_cart_button button">Add to cart
+                                                    </button>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <h5 class="product-name product_title">
+                                            <a href="#">Quần Boxer PROFIT</a>
+                                        </h5>
+                                        <div class="group-info">
+                                            <div class="price">
+                                                <ins>
+                                                    139.000đ
+                                                </ins>
+                                                <del>
+                                                    149.000
+                                                </del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                        <button>Xem thêm (18)</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
     <footer class="footer style7">
         <div class="container">
             <div class="container-wapper">
@@ -706,45 +1192,6 @@
         Copyright © 2022
         <a href="#">The Wallet Showroom</a>
     </div>
-    <!-- <div class="footer-device-mobile">
-        <div class="wapper">
-            <div class="footer-device-mobile-item device-home">
-                <a href="index.html">
-                        <span class="icon">
-                            <i class="fa fa-home" aria-hidden="true"></i>
-                        </span>
-                    Home
-                </a>
-            </div>
-            <div class="footer-device-mobile-item device-home device-wishlist">
-                <a href="#">
-                        <span class="icon">
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                        </span>
-                    Wishlist
-                </a>
-            </div>
-            <div class="footer-device-mobile-item device-home device-cart">
-                <a href="#">
-                        <span class="icon">
-                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
-                            <span class="count-icon">
-                                0
-                            </span>
-                        </span>
-                    <span class="text">Cart</span>
-                </a>
-            </div>
-            <div class="footer-device-mobile-item device-home device-user">
-                <a href="login.html">
-                        <span class="icon">
-                            <i class="fa fa-user" aria-hidden="true"></i>
-                        </span>
-                    Account
-                </a>
-            </div>
-        </div>
-    </div> -->
     <a href="#" class="backtotop">
         <i class="fa fa-angle-double-up"></i>
     </a>
@@ -768,6 +1215,26 @@
     <script src="assets/js/jquery.scrollbar.min.js"></script>
     <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyC3nDHy1dARR-Pa_2jjPCjvsOR4bcILYsM'></script>
     <script src="assets/js/frontend-plugin.js"></script>
+    <script>
+        var rangeSlider = function () {
+            var slider = $('.range-slider'),
+                range = $('.range-slider__range'),
+                value = $('.range-slider__value');
+
+            slider.each(function () {
+                value.each(function () {
+                    var value = $(this).prev().attr('value');
+                    $(this).html(value);
+                });
+
+                range.on('input', function () {
+                    $(this).next(value).html(this.value);
+                });
+            });
+        };
+
+        rangeSlider();
+    </script>
 </body>
 
 </html>
