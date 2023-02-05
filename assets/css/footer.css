@@ -1,0 +1,329 @@
+
+/* header */
+.header.style2 .main-banner-header {
+    background: #232323;
+    color: #fff;
+    font-size: 12px;
+}
+.header.style2 .header-nav-container .top-bar .shop-test-language  {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header.style2 .header-nav-container .top-bar .shop-test-language a {
+    display: flex;
+}
+
+.header.style2 .header-nav-container .top-bar  .top-bar-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header.style2 .header-nav-container .top-bar  .top-bar-right .header-user-links li a:first-child::after {
+    content: '|';
+    padding: 10px;
+}
+
+.header.style2 .header-nav-container  .top-bar .header-language .shop-test-language::after {
+    content :'';
+    height: 68px;
+    width: 1px;
+    border: 1px solid #fff;
+    margin: 10px 0px;
+}
+
+/* end header */
+
+.footer.style7 {
+    
+    background: black;
+    color: #fff;
+}
+
+
+.footer.style7 .shop-test-custommenu.default h2 ,
+.footer.style7 .container-wapper .row .box-footer .shop-test-newsletter.style1 .newsletter-head h3  {
+    color: #fff;
+}
+
+.footer.style7 .shop-test-custommenu.default ul li a  {
+    color: #fff;
+}
+
+.footer.style7 .container-wapper .row .box-footer {
+    text-align: left;
+}
+
+
+.coppyright {
+    background: #232323;
+    text-align: center;
+    height: 100px;
+    padding-top:20px ;
+}
+
+
+.footer.style7 .shop-test-newsletter.style1 .footer-end .shop-test-socials ul {
+    gap: 10px;
+    display: flex;
+}
+.footer.style7 .shop-test-newsletter.style1 .footer-end .shop-test-socials li  {
+    border-radius: 50%;
+    width: 40px;
+    background: #fff;
+}
+
+.footer.style7 .shop-test-newsletter.style1 .footer-end .shop-test-socials li  a {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    min-width: auto !important;
+    margin-bottom: 0px;
+}
+.footer.style7 .shop-test-newsletter.style1 .footer-end .shop-test-socials li  a i {
+    font-size: 20px;
+}
+
+.footer.style7 .shop-test-newsletter.style1 .newsletter-form-wrap .form {
+    display: flex;
+    gap:10px;
+}
+
+.footer.style7 .shop-test-newsletter.style1 .newsletter-form-wrap .form input {
+    text-align: left;
+    border-radius: 0px;
+    height: 40px;
+    line-height: 40px;
+}
+.footer.style7 .shop-test-newsletter.style1 .newsletter-form-wrap .form  button{
+    width: 200px;
+    border-radius: 0px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+/* end footer */
+
+
+
+/* home page */
+
+
+.shop-test-product.product-featured .custommenu-title-blog::before,
+.shop-test-best-selling .custommenu-title-blog::before,
+.shop-test-new-arrival .custommenu-title-blog::before,
+.shop-test-product-reviews .custommenu-title-blog::before,
+.shop-test-product.produc-new-arrival .custommenu-title-blog::before {
+    display: none;
+}
+
+.shop-test-promotion .custom-promotion-title-blog {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.shop-test-best-selling .custommenu-title-blog,
+.shop-test-new-arrival  .custommenu-title-blog{
+    margin-bottom: 30px;
+}
+
+.shop-test-best-selling .list-products .product-item .product-info .product-name {
+    text-align: left;
+    padding: 0px 10px;
+}
+
+.shop-test-best-selling .list-products .product-item .product-info .group-info {
+    text-align: left;
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+.shop-test-best-selling .list-products .product-item .product-info .group-info .price {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+
+.shop-test-best-selling .list-products .product-item .product-info .group-info ins {
+    color: black;
+    font-size: 18px;
+    font-weight: 600
+
+}
+.shop-test-best-selling .list-products .product-item .product-info .group-info del {
+    color: red;
+    font-size: 18px;
+
+}
+
+
+
+
+
+.shop-test-exclusive.banner-pinmap-wrapp .banner {
+    width: 100%;
+    position: absolute;
+    height: 250px;
+}
+.shop-test-exclusive.banner-pinmap-wrapp .item-banner.style21 .inner {
+    height: 250px;
+    /* background-image: url(); */
+}
+.shop-test-exclusive.banner-pinmap-wrapp .product-featured {
+    margin-top: 100px;
+}
+.shop-test-exclusive.banner-pinmap-wrapp .product-featured .container {
+    padding: 0px 80px;
+}
+.shop-test-exclusive.banner-pinmap-wrapp .product-featured .list-products .product-item .product-info .product-name {
+    padding: 0px 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+}
+.shop-test-exclusive.banner-pinmap-wrapp .product-featured .list-products .product-item .product-info .group-info{
+    padding: 0px 15px;
+    font-size: 20px;
+}
+
+.shop-test-exclusive .shop-test-product-featured {
+    margin-top:162px;
+    padding: 0px 60px;
+}
+.shop-test-exclusive .shop-test-product-featured .product-item {
+    padding: 0px;
+}
+.shop-test-exclusive .shop-test-product-featured .product-inner.equal-element {
+    width: 250px;
+    margin: auto;
+}
+.shop-test-exclusive .shop-test-product-featured .product-inner.equal-element .product-info {
+    padding: 0px 10px;
+}
+.shop-test-exclusive .shop-test-product-featured .product-inner.equal-element .product-info .product-name{
+    text-transform: uppercase;
+}
+
+.shop-test-product-reviews {
+    background: #fff;
+    padding: 0px;
+}
+
+.shop-test-product-reviews .custommenu-title-blog {
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.shop-test-product-reviews .product-list-owl .product-item .product-inner.equal-element {
+    border: 2px solid #F1F1F1;
+    padding: 0px;
+}
+
+.shop-test-product-reviews .product-list-owl .product-item .product-inner.equal-element .product-name {
+    padding-top: 20px;
+}
+
+.shop-test-product-reviews .product-list-owl .product-item .product-inner.equal-element .product-avatar {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #F1F1F1;
+    top: -26px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+    background-color: #fff;
+}
+.shop-test-product-reviews .product-list-owl .product-item .product-inner.equal-element .product-avatar div {
+    position: relative;
+}
+
+.shop-test-product-reviews .product-reviews-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-test-product-reviews .container-wapper {
+    position: relative;
+}
+
+.shop-test-product-reviews .container-wapper .slick-arrow {
+    background: #fff;
+    color: gray;
+    font-size:32px;
+}
+
+.shop-test-product-reviews .container-wapper  .product-reviews-more button{
+    border: 1px solid gray;
+    background: #fff;
+    color: black;
+    padding: 5px 25px;
+}
+
+.shop-test-product-reviews .product-list-owl .fa-angle-left {
+    top: 94%;
+}
+
+.shop-test-product-reviews .product-list-owl .fa-angle-right {
+    left: unset;
+    right: 70px;
+    top: 94%;
+}
+/* .shop-test-product-reviews .product-list-owl .product-item .product-inner.equal-element .product-avatar div svg {
+    position: absolute;
+    font-size: 10px;
+} */
+
+.shop-test-product-reviews .product-list-owl .product-item .product-inner.equal-element .product-info {
+    padding: 20px;
+}
+
+.shop-test-product-reviews .product-list-owl .product-item .product-inner.equal-element .product-thumb {
+    margin-bottom: 0px;
+}
+
+
+/* my collection */
+
+.shop-test-exclusive.my-collection .shop-test-best-selling {
+    margin-top: 165px;
+}
+
+.shop-test-exclusive.my-collection .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-test-exclusive.my-collection .inner {
+    background-image: url('https://w.ladicdn.com/s1550x1450/628afc69ff3da4005c3d2193/head-banner-2-desktop-promax-homepage-20220728105840.png') !important;
+}
+.shop-test-exclusive.my-collection .banner-collection {
+    text-align: center;
+    padding: 35px ;
+    background: transparent;
+  
+}
+.shop-test-exclusive.my-collection .banner-collection h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+.shop-test-exclusive.my-collection .banner-collection span {
+    color: #fff;
+}
+.shop-test-exclusive.my-collection  .shop-test-best-selling .more button {
+    color: #fff;
+    background-color: blue;
+}
+
+/* end my collection */

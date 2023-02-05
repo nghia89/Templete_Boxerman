@@ -1,0 +1,209 @@
+.product-policy__item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	width: 80%;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.product-policy__icon {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.product-policy__icon img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: contain;
+	object-fit: contain;
+}
+
+.product-policy__title p{
+	font-size: 14px;
+}
+.product-policy__title span{
+	font-weight: bold;
+	color: #050505
+}
+
+.product-detail-price_wrapper {
+	border-radius: 2px;
+	width: 80%;
+	height: 60px;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 10px;
+	line-height: 16px;
+	display: flex;
+	background: rgb(230, 94, 174);
+	background: -moz-linear-gradient(270deg, rgba(230, 94, 174, 1) 0%, rgba(255, 79, 142, 1) 19%, rgba(255, 186, 132, 1) 100%);
+	background: -webkit-linear-gradient(270deg, rgba(230, 94, 174, 1) 0%, rgba(255, 79, 142, 1) 19%, rgba(255, 186, 132, 1) 100%);
+	background: linear-gradient(270deg, rgba(230, 94, 174, 1) 0%, rgba(255, 79, 142, 1) 19%, rgba(255, 186, 132, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e65eae", endColorstr="#ffba84", GradientType=1);
+}
+
+.product-detail-price_wrapper p{
+	margin-bottom: 0px;
+}
+
+.product-detail-price_wrapper .col-price-dt {
+	text-align: left;
+	width: 50%;
+}
+
+.product-detail-price_wrapper .prod_dt_price .price {
+	font-size: 28px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.product-detail-price_wrapper .col-price {
+	font-size: 22px;
+	font-weight: 500;
+	color: #ffffff;
+}
+.product-detail-price_wrapper .price_old {
+	color: #ffffff;
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.nt-prepaid-installment {
+	width: 50%;
+	font-size: 14px;
+	line-height: 1.2;
+	color: #ffffff;
+	font-weight: 500;
+	position: relative;
+}
+.attribute_coupons  {
+	border-radius: 2px;
+	width: 77%;
+	height: 60px;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 10px;
+	line-height: 16px;
+	display: flex;
+	background: #ffeef2;
+	margin-top: 5px;
+}
+
+.coupons_left{
+	width: 80%;
+}
+
+.attribute_coupons .coupons_left_title {
+	font-size: 14px;
+	font-weight: 700;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+
+.attribute_coupons .coupons_left_note {
+	font-size: 12px;
+}
+
+.coupons_right_btn{
+	font-size: 14px;
+	font-weight: 400;
+	background: #fe5f7e;
+	padding: 6px;
+	color: white;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.attribute {
+	margin-bottom: 15px;
+}
+
+.attribute_transport_fee {
+	width: 77%;
+	height: 60px;
+	align-items: center;
+	line-height: 16px;
+	display: flex;
+}
+
+.transport_fee_left {
+	width: 65%;
+}
+
+.transport_fee_right span{
+	font-size: 14px;
+	color: #ff214d;
+}
+
+.transport_fee_title{
+	font-size: 14px;
+	color: #0093ed;
+	font-weight: 500;
+	border: 1px solid #0093ed;
+	padding: 2px;
+	border-radius: 2px;
+}
+.transport_fee_left_note{
+	margin: 0;
+	padding-top: 13px;
+	font-size: 14px;
+}
+
+.attribute_size .list-size a:hover{
+	background-color: #f5657f !important;
+}
+
+.attribute_size .list-size a:hover{
+	border-color: #f5657f !important;
+}
+
+.attribute_size .list-size a.active{
+	border: 1px solid #f5657f !important;
+	color: #f5657f;
+	background:#ffffff !important
+}
+.consultation {
+	padding-top: 12px;
+}
+
+.consultation span{
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.add_to_cart_button{
+	background-color: #ffffff;
+	border: 1px solid #f5657f !important;
+	color: #f5657f;
+	border-radius: 2px;
+	font-size: 14px !important;
+	font-weight: 500;
+	min-width: 120px !important;
+	line-height: 16px;
+	padding: 0px !important;
+	height: 47px;
+}
+
+.add_to_voucher_button {
+	background-color: #f16380;
+	border: 0px solid #f5657f !important;
+	color: #ffffff;
+	border-radius: 2px;
+	font-size: 14px !important;
+	font-weight: 500;
+	min-width: 200px !important;
+	line-height: 16px;
+	padding: 0px !important;
+	height: 47px;
+}
