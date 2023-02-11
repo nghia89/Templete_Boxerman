@@ -299,18 +299,17 @@
                                         <div class="range-slider">
                                             <div class="range-slider-top">
                                                 <span class="range-slider__label">Chiều cao</span>
-                                                <span id="range-slider_height_value"
-                                                    class="range-slider__value">165cm</span>
+                                                <span id="range-slider-cm_value">50cm</span>
                                             </div>
                                             <input type="range" min="1" max="100" value="50"
-                                                class="range-slider__range slider" id="myRange">
+                                                class="range-slider__range slider" id="range-slider-cm">
                                         </div>
                                         <div class="range-slider">
                                             <div class="range-slider-top">
                                                 <span class="range-slider__label">Căn nặng</span>
-                                                <span id="range-slider_height_value" class="range-slider__value">160kg</span>
+                                                <span id="range-slider-kg_value" >50kg</span>
                                             </div>
-                                            <input type="range" min="1" max="100" value="50" class="range-slider__range slider" id="myRange">
+                                            <input type="range" min="1" max="100" value="50" class="range-slider__range slider" id="range-slider-kg">
                                         </div>
                                         <div style="padding-top: 15px;">
                                             <span class="range-slider__label">Gợi ý</span>
@@ -1194,24 +1193,12 @@
     <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyC3nDHy1dARR-Pa_2jjPCjvsOR4bcILYsM'></script>
     <script src="assets/js/frontend-plugin.js"></script>
     <script>
-        var rangeSlider = function () {
-            var slider = $('.range-slider'),
-                range = $('.range-slider__range'),
-                value = $('.range-slider__value');
-
-            slider.each(function () {
-                value.each(function () {
-                    var value = $(this).prev().attr('value');
-                    $(this).html(value);
-                });
-
-                range.on('input', function () {
-                    $(this).next(value).html(this.value);
-                });
+         $("#range-slider-cm").change(function () {
+                $("#range-slider-cm_value").text($(this).val() + ' cm');
             });
-        };
-
-        rangeSlider();
+        $("#range-slider-kg").change(function () {
+            $("#range-slider-kg_value").text($(this).val() +' kg');
+        });
     </script>
 </body>
 
