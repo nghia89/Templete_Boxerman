@@ -1,5 +1,42 @@
 /* header */
 
+.header.style2 .menu-cart {
+    position: relative;
+}
+
+.header.style2 .menu-cart  span {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: red;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+.header-device-mobile  .item.menu-cart {
+    position: relative;
+}
+
+.header-device-mobile  .item.menu-cart span {
+    position: absolute;
+    top: 4px;
+    right: -6px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: red;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+
 .header-device-mobile  .item.menu-cart{
     width: 30px;
     padding-top: 5px;

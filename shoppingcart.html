@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Product Detail</title>
+    <title>Cart</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -91,6 +91,7 @@
                                                 </svg>
                                             </a>
                                             <a href="#" data-shop-test="shop-test-cart" class="menu-cart">
+                                                <span>10</span>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                     viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -116,23 +117,47 @@
             </div>
         </div>
     </header>
+    <div class="header-device-mobile">
+        <div class="main-banner-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <span>Nhập mã BOXERMAN100 để mua sản phẩm với giá 0đ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wapper">
+            <div class="item menu-bar">
+                <a class=" mobile-navigation  menu-toggle" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <div class="item mobile-logo text-center">
+                <div class="logo">
+                    <div class="logo">
+                        <span style="font-weight:600; font-size:22px">Boxerman</span>
+                        <div>Underware</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item menu-cart">
+                <span>10</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-shopping-bag">
+                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                    <line x1="3" y1="6" x2="21" y2="6" />
+                    <path d="M16 10a4 4 0 0 1-8 0" />
+                </svg>
+            </div>
+        </div>
+    </div>
     <main class="site-main  main-container no-sidebar">
         <div class="container">
-            <div class="breadcrumb-trail breadcrumbs">
-                <ul class="trail-items breadcrumb">
-                    <li class="trail-item trail-begin">
-                        <a href="">
-                            <span>
-                                Home
-                            </span>
-                        </a>
-                    </li>
-                    <li class="trail-item trail-end active">
-                        <span>
-                            GIỎ HÀNG
-                        </span>
-                    </li>
-                </ul>
+            <div class="breadcrumb-trail breadcrumbs rows-space-60">
             </div>
             <div class="row">
                 <div class="main-content-cart main-content col-sm-12">
@@ -141,141 +166,187 @@
                     </h3>
                     <div class="page-main-content">
                         <div class="shoppingcart-content">
-                            <form action="shoppingcart.html" class="cart-form">
-                                <table class="shop_table">
-                                    <thead>
-                                        <tr>
-                                            <th class="product-remove"></th>
-                                            <th class="product-thumbnail"></th>
-                                            <th class="product-name"></th>
-                                            <th class="product-price"></th>
-                                            <th class="product-quantity"></th>
-                                            <th class="product-subtotal"></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="cart_item">
-                                            <td class="product-remove">
-                                                <a href="#" class="remove"></a>
-                                            </td>
-                                            <td class="product-thumbnail">
-                                                <a href="#">
-                                                    <img src="assets/images/cart-item-2.jpg" alt="img"
-                                                        class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image">
-                                                </a>
-                                            </td>
-                                            <td class="product-name" data-title="Product">
-                                                <a href="#" class="title">Quần Boxer PROFIT</a>
-                                                <span class="attributes-select attributes-color">Black,</span>
-                                                <span class="attributes-select attributes-size">XXL</span>
-                                            </td>
-                                            <td class="product-quantity" data-title="Quantity">
-                                                <div class="quantity">
-                                                    <div class="control">
-                                                        <a class="btn-number qtyminus quantity-minus" href="#">-</a>
-                                                        <input type="text" data-step="1" data-min="0" value="1" title="Qty"
-                                                            class="input-qty qty" size="4">
-                                                        <a href="#" class="btn-number qtyplus quantity-plus">+</a>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="product-price" data-title="Price">
-                                                <span class="woocommerce-Price-amount amount">
-                                                    <span class="woocommerce-Price-currencySymbol">
-                                                        $
-                                                    </span>
-                                                    45
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr class="cart_item">
-                                            <td class="product-remove">
-                                                <a href="#" class="remove"></a>
-                                            </td>
-                                            <td class="product-thumbnail">
-                                                <a href="#">
-                                                    <img src="assets/images/cart-item-3.jpg" alt="img"
-                                                        class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image">
-                                                </a>
-                                            </td>
-                                            <td class="product-name" data-title="Product">
-                                                <a href="#" class="title">Combo 2 Boxer PROFIT</a>
-                                                <span class="attributes-select attributes-color">White,</span>
-                                                <span class="attributes-select attributes-size">M</span>
-                                            </td>
-                                            <td class="product-quantity" data-title="Quantity">
-                                                <div class="quantity">
-                                                    <div class="control">
-                                                        <a class="btn-number qtyminus quantity-minus" href="#">-</a>
-                                                        <input type="text" data-step="1" data-min="0" value="1" title="Qty"
-                                                            class="input-qty qty" size="4">
-                                                        <a href="#" class="btn-number qtyplus quantity-plus">+</a>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="product-price" data-title="Price">
-                                                <span class="woocommerce-Price-amount amount">
-                                                    <span class="woocommerce-Price-currencySymbol">
-                                                        $
-                                                    </span>
-                                                    45
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr class="cart_item">
-                                            <td class="product-remove">
-                                                <a href="#" class="remove"></a>
-                                            </td>
-                                            <td class="product-thumbnail">
-                                                <a href="#">
-                                                    <img src="assets/images/cart-item-1.jpg" alt="img"
-                                                        class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image">
-                                                </a>
-                                            </td>
-                                            <td class="product-name" data-title="Product">
-                                                <a href="#" class="title">Combo 3 Boxer PROFIT</a>
-                                                <span class="attributes-select attributes-color">Brown,</span>
-                                                <span class="attributes-select attributes-size">XS</span>
-                                            </td>
-                                            <td class="product-quantity" data-title="Quantity">
-                                                <div class="quantity">
-                                                    <div class="control">
-                                                        <a class="btn-number qtyminus quantity-minus" href="#">-</a>
-                                                        <input type="text" data-step="1" data-min="0" value="1" title="Qty"
-                                                            class="input-qty qty" size="4">
-                                                        <a href="#" class="btn-number qtyplus quantity-plus">+</a>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="product-price" data-title="Price">
-                                                <span class="woocommerce-Price-amount amount">
-                                                    <span class="woocommerce-Price-currencySymbol">
-                                                        $
-                                                    </span>
-                                                    45
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="actions">
-                                                <div class="coupon">
-                                                    <label class="coupon_code">Mã giảm giá:</label>
-                                                    <input type="text" class="input-text" placeholder="Promotion code here">
-                                                    <a href="#" class="button"></a>
-                                                </div>
-                                                <div class="order-total">
-                                                    <span class="title">
-                                                        Tổng giá:
-                                                    </span>
-                                                    <span class="total-price">
-                                                        $95
-                                                    </span>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </form>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <form action="shoppingcart.html" class="cart-form">
+                                        <table class="shop_table">
+                                            <thead>
+                                                <tr>
+                                                    <th class="product-remove"></th>
+                                                    <th class="product-thumbnail"></th>
+                                                    <th class="product-name"></th>
+                                                    <th class="product-price"></th>
+                                                    <th class="product-quantity"></th>
+                                                    <th class="product-subtotal"></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="cart_item">
+                                                    <td class="product-remove">
+                                                        <a href="#" class="remove"></a>
+                                                    </td>
+                                                    <td class="product-thumbnail">
+                                                        <a href="#">
+                                                            <img src="assets/images/cart-item-2.jpg" alt="img"
+                                                                class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image">
+                                                        </a>
+                                                    </td>
+                                                    <td class="product-name" data-title="Product">
+                                                        <a href="#" class="title">Quần Boxer PROFIT</a>
+                                                        <span class="attributes-select attributes-color">Black,</span>
+                                                        <span class="attributes-select attributes-size">XXL</span>
+                                                    </td>
+                                                    <td class="product-quantity" data-title="Quantity">
+                                                        <div class="quantity">
+                                                            <div class="control">
+                                                                <a class="btn-number qtyminus quantity-minus"
+                                                                    href="#">-</a>
+                                                                <input type="text" data-step="1" data-min="0" value="1"
+                                                                    title="Qty" class="input-qty qty" size="4">
+                                                                <a href="#"
+                                                                    class="btn-number qtyplus quantity-plus">+</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="product-price" data-title="Price">
+                                                        <span class="woocommerce-Price-amount amount">
+                                                            <span class="woocommerce-Price-currencySymbol">
+                                                                $
+                                                            </span>
+                                                            45
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="cart_item">
+                                                    <td class="product-remove">
+                                                        <a href="#" class="remove"></a>
+                                                    </td>
+                                                    <td class="product-thumbnail">
+                                                        <a href="#">
+                                                            <img src="assets/images/cart-item-3.jpg" alt="img"
+                                                                class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image">
+                                                        </a>
+                                                    </td>
+                                                    <td class="product-name" data-title="Product">
+                                                        <a href="#" class="title">Combo 2 Boxer PROFIT</a>
+                                                        <span class="attributes-select attributes-color">White,</span>
+                                                        <span class="attributes-select attributes-size">M</span>
+                                                    </td>
+                                                    <td class="product-quantity" data-title="Quantity">
+                                                        <div class="quantity">
+                                                            <div class="control">
+                                                                <a class="btn-number qtyminus quantity-minus"
+                                                                    href="#">-</a>
+                                                                <input type="text" data-step="1" data-min="0" value="1"
+                                                                    title="Qty" class="input-qty qty" size="4">
+                                                                <a href="#"
+                                                                    class="btn-number qtyplus quantity-plus">+</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="product-price" data-title="Price">
+                                                        <span class="woocommerce-Price-amount amount">
+                                                            <span class="woocommerce-Price-currencySymbol">
+                                                                $
+                                                            </span>
+                                                            45
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="cart_item">
+                                                    <td class="product-remove">
+                                                        <a href="#" class="remove"></a>
+                                                    </td>
+                                                    <td class="product-thumbnail">
+                                                        <a href="#">
+                                                            <img src="assets/images/cart-item-1.jpg" alt="img"
+                                                                class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image">
+                                                        </a>
+                                                    </td>
+                                                    <td class="product-name" data-title="Product">
+                                                        <a href="#" class="title">Combo 3 Boxer PROFIT</a>
+                                                        <span class="attributes-select attributes-color">Brown,</span>
+                                                        <span class="attributes-select attributes-size">XS</span>
+                                                    </td>
+                                                    <td class="product-quantity" data-title="Quantity">
+                                                        <div class="quantity">
+                                                            <div class="control">
+                                                                <a class="btn-number qtyminus quantity-minus"
+                                                                    href="#">-</a>
+                                                                <input type="text" data-step="1" data-min="0" value="1"
+                                                                    title="Qty" class="input-qty qty" size="4">
+                                                                <a href="#"
+                                                                    class="btn-number qtyplus quantity-plus">+</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="product-price" data-title="Price">
+                                                        <span class="woocommerce-Price-amount amount">
+                                                            <span class="woocommerce-Price-currencySymbol">
+                                                                $
+                                                            </span>
+                                                            45
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="actions">
+                                                        <div class="coupon">
+                                                            <label class="coupon_code">Mã giảm giá:</label>
+                                                            <input type="text" class="input-text"
+                                                                placeholder="Promotion code here">
+                                                            <a href="#" class="button"></a>
+                                                        </div>
+                                                        <div class="order-total">
+                                                            <span class="title">
+                                                                Tổng giá:
+                                                            </span>
+                                                            <span class="total-price">
+                                                                $95
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </form>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="shipping-address">
+                                        <div class="row">
+                                            <div class="col-md-12" style="margin-bottom:20px">
+                                                <input style="width:100%" placeholder="Ho va ten" type="text"
+                                                    class="input-text">
+                                            </div>
+                                            <div class="col-md-6" style="margin-bottom:20px">
+                                                <input style="width:100%" placeholder="Dia chi" title="last" type="text"
+                                                    class="input-text">
+                                            </div>
+                                            <div class="col-md-6" style="margin-bottom:20px">
+                                                <input style="width:100%" placeholder="So dien thoai" title="last"
+                                                    type="text" class="input-text">
+                                            </div>
+                                            <div class="col-md-6  choose-address" style="margin-bottom:20px">
+                                                <select id="province-select" style="width:100% !important" class="form-control">
+
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6 choose-address" style="margin-bottom:20px">
+                                                <select id="district-select" style="width:100% !important" class="form-control">
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6 choose-address" style="margin-bottom:20px">
+                                                <select id="ward-select" style="width:100% !important" class="form-control">
+                                                </select>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label style="font-size:12px; font-weight: 400">Ghi chu(neu co)</label>
+                                                <textarea style="height: 200px"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="control-cart">
                                 <button class="button btn-continue-shopping">
                                     Tiếp tục mua sắm
@@ -506,6 +577,46 @@
     <script src="assets/js/jquery.scrollbar.min.js"></script>
     <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyC3nDHy1dARR-Pa_2jjPCjvsOR4bcILYsM'></script>
     <script src="assets/js/frontend-plugin.js"></script>
+    <script>
+        var dataJsonProvince=[];
+        var dataJsonDistrict = [];
+        var provinceStr = "<option value=''>-chọn tỉnh/thành phố</option>";
+        
+        $.getJSON("https://raw.githubusercontent.com/madnh/hanhchinhvn/master/dist/tree.json", function (json) {
+            dataJsonProvince = json;
+            $.each(json, function (i, item) {
+                provinceStr += "<option value='" + item.code + "'>" + item.name + "</option>";
+            });
+            $('#province-select').html(provinceStr);
+            $('#district-select').html("<option value=''>-chọn quận huyện</option>");
+            $('#ward-select').html("<option value=''>-chọn phường xã</option>");
+        });
+       
+        
+         $('#province-select').on('change', function () {
+               var districtStr = "<option value=''>-chọn quận huyện</option>";
+               var district= dataJsonProvince[this.value]
+               dataJsonDistrict= district;
+                 $.each(district["quan-huyen"], function (i, item) {
+                    districtStr += "<option value='" + item.code + "'>" + item.name + "</option>";
+                 });
+            $('#district-select').html(districtStr);
+            $('#ward-select').html("<option value=''>-chọn phường xã</option>");
+        });
+      
+
+               
+                $('#district-select').on('change', function () {
+                    var wardStr = "<option value=''>-chọn phường xã</option>";
+                    var wards = dataJsonDistrict['quan-huyen']
+                    $.each(wards, function (i, item) {
+                        wardStr += "<option value='" + item.code + "'>" + item.name + "</option>";
+                    });
+                    $('#ward-select').html(wardStr);
+                });
+            
+
+    </script>
 </body>
 
 </html>

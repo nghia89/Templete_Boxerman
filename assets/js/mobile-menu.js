@@ -114,7 +114,7 @@
             $('.shop-test-menu-clone-wrap .shop-test-menu-panels').append('<div id="shop-test-menu-panel-main" class="shop-test-menu-panel shop-test-menu-panel-main"><ul class="depth-01"></ul></div>');
         }
 
-        $('.shop-test-clone-mobile-menu').each(function () {
+        $('.shop-test-clone-mobile-menu').each(function (it,index) {
             var $this              = $(this),
                 thisOfficeu           = $this,
                 this_menu_id       = thisOfficeu.attr('id'),
@@ -123,7 +123,7 @@
             if ( !$('#' + this_menu_clone_id).length ) {
                 var thisClone = $this.clone(true); // Clone Wrap
                 thisClone.find('.menu-item').addClass('clone-menu-item');
-
+                var SP = ['./collectionpage.html']
                 thisClone.find('[id]').each(function () {
                     // Change all tab links with href = this id
                     thisClone.find('.vc_tta-panel-heading a[href="#' + $(this).attr('id') + '"]').attr('href', '#' + shop_test_menuadd_string_prefix($(this).attr('id'), 'shop-test-menu-clone-'));

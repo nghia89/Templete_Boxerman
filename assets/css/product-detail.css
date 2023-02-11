@@ -432,3 +432,13 @@
 		right:-500px
 	}
 }
+
+
+.choose-address  .chosen-container{
+	width: 100% !important;
+	
+}
+
+.choose-address  .chosen-container .chosen-single {
+	background: #fff !important;
+}
